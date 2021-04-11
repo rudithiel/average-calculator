@@ -2,7 +2,6 @@ import requests, json, time
 import sys
 from lxml import html
 from lxml import etree as et
-from twilio.rest import Client
 
 session_requests = requests.session()
 
